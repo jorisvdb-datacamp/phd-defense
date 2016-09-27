@@ -75,6 +75,14 @@ class: center, middle, inverse
 
 Good and justified question, but very difficult to answer as a researcher.
 
+Mensen stellen de vraag: "Hoe is het gesteld met de luchtkwaliteit?
+Hoe is de luchtkwaliteit in Antwerpen? Is het goed of slecht?"
+
+-> natuurlijk een heel goede, terechte vraag, maar vanuit wetenschappelijk oogpunt
+een zeer moelijke vraag (moeilijk te vertalen in een wetenschappelijk vraag waar
+een antwoord op kan gegeven worden) waarbij enkele moeilijkheden naar voor komen
+
+
 ---
 class: left, top
 
@@ -112,7 +120,7 @@ Exposure of urban population in EU to PM2.5
 
 ---
 
-## Urban air quality
+## Air quality: sources and pollutants
 
 .center[
 ![:scale 100%](images/Sources-of-air-pollution_310314.png)
@@ -122,22 +130,59 @@ Exposure of urban population in EU to PM2.5
 
 many different pollutants
 
+Luchtkwaliteit = zeer divers, complex mix van gassen en stoffen → welke polluent spreken we precies over?
+Kort overzicht, nadruk op BC
 
 ---
+count: false
+
+## Air quality: sources and pollutants
+
+.center[
+![:scale 100%](images/Sources-of-air-pollution_310314.png)
+]
+.large[=> temporal and spatial variability in pollutant concentrations]
+
+
+---
+class: center, middle
+
+![:scale 100%](images/destandaard-autoloze-zondag-krant.png)
+
+
+???
+---
+## Exposure to air pollution
+
+.center[
+![:scale 100%](images/dons-exposure.jpeg)
+]
+
+.right[
+.credits[Dons et al. (2011). Impact of time–activity patterns on personal exposure to black carbon]
+]
+
+<!--
 
 ## Air quality: large spatial variability
 
 
-<!--
 
 ## Air quality: large temporal variability
- -->
 
-
+-->
 
 ---
 
 ### Quantifying pollutant concentration levels
+
+
+???
+
+"Hoe is de luchtkwaliteit" -> wetenschappelijk vertalen: quantify concentration level of certain pollutant
+
+--
+count: false
 
 Traditional measurement approach:
 
@@ -165,6 +210,12 @@ Traditional measurement approach:
 ![:scale 65%](images/vmm_stations2.png)
 ]
 
+???
+
+Doelstelling thesis: kijken naar complementaire manieren om de ruimtelijke variatie
+in meer detail in kaart te brengen.
+
+
 ---
 
 ### Quantifying pollutant concentration levels
@@ -189,7 +240,7 @@ Modeling (dispersion models, regression models)
 
 ![:scale 30%](images/sensors-everyaware.jpg)
 ![:scale 30%](images/sensors-alphasense.png)
-![:scale 30%](images/sensors-commonsense.png)
+![:scale 33%](images/sensors-commonsense.jpg)
 
 Problem: low-cost sensors not yet reliable enough
 
@@ -204,11 +255,51 @@ class: center, middle
 
 More expensive monitors
 
-.center[
-![](images/monitors-ptrak.jpg)
-![](images/monitors-microaethalometer.jpg)
-]
+<table class="layout-table" border=0>
+  <col style="width:50%">
+  <col style="width:50%">
+  <tr>
+    <td>
+      <figure style="margin-top: 0px;margin-left: 0px;margin-right: 20px;margin-bottom: 0px;">
+        <figcaption>P-Trak</figcaption>
+        <img src='images/monitors-ptrak.jpg' />
+      </figure>
+    </td>
+    <td>
+      <figure style="margin-top: 0px;margin-left: 0px;margin-right: 20px;margin-bottom: 0px;">
+        <figcaption>Micro-aethalometer</figcaption>
+        <img src='images/microaeth.png'/>
+      </figure>
 
+    </td>
+  </tr>
+    <td style="text-align:center; vertical-align:top">
+      Ultra fine particle counter
+    </td>
+    <td style="text-align:center">
+      Black carbon<br>
+      <div style="margin-bottom: 10px;"> </div>
+      <div class='darkred'>6000 EUR !</div>
+    </td>
+  </tr>
+</table>
+
+Can be used for mobile monitoring
+
+
+
+
+---
+
+## Modeling
+
+![:scale 100%](images/irceline.png)
+
+???
+
+Op basis van metingen gaan interpoleren
+
+Hier nog grof, maar ook andere modellen die meer gedetailleerd gaan voorspellen
 
 ---
 
@@ -245,7 +336,14 @@ Alternative measurement approaches:
 
 Modeling (dispersion models, .darkred[**regression models**])
 
+---
+class: inverse, middle, center
 
+# Mobile air quality monitoring
+
+???
+
+blootstelling op straatniveau -> daar aan het meten
 
 ---
 
@@ -274,9 +372,9 @@ count:false
     <th>3) Day-to-day</th>
   </tr>
   <tr>
-    <td style="padding:0;"><img src="images/temporal-variation-1.png" width="100%"></td>
-    <td style="padding:0;"><img src="images/temporal-variation-2.png" width="100%"></td>
-    <td style="padding:0;"><img src="images/temporal-variation-3.png" width="100%"></td>
+    <td style="padding:0;"><img src="images/temporal-variation-1b.png" width="100%"></td>
+    <td style="padding:0;"><img src="images/temporal-variation-2b.png" width="100%"></td>
+    <td style="padding:0;"><img src="images/temporal-variation-3b.png" width="100%"></td>
   </tr>
   <tr>
     <td>=> Events, e.g. passing car, …</td>
@@ -285,7 +383,8 @@ count:false
   </tr>
 </table>
 
----
+<!--
+
 
 ## Challenges of mobile monitoring
 
@@ -293,16 +392,16 @@ count:false
 * **Spatio-temporal data => limited temporal resolution**
 
 
----
+-
 
 ## Challenges of mobile monitoring
 
 * Urban air quality (BC) => large (temporal) variability
 * Spatio-temporal data => limited temporal resolution
 
-=> consequence: large variability in collected data
+Consequence: large variability in collected data
 
-=> question: does the mapped concentration give a representative value?
+Does the mapped concentration give a representative value? -->
 
 
 ---
@@ -642,6 +741,143 @@ Decrease required number of repetitions
   <tr>
     <td>Route</td>
     <td>17</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>50 m segments</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">10%</td>
+    <td>33</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">50%</td>
+    <td>57</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">90%</td>
+    <td>141</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+???
+
+33 keer herhalen -> 10% van de locaties die goed in kaart zijn gebracht
+
+57 keer herhalen -> goed in 50% van de locaties (40% bijgekomen)
+
+=> verbeteren?
+
+- verwerken (trimmed mean voor outliers/events, background normalisation voor temporal variation)
+- larger uncertainty (toleranter zijn, relatieve fout van 50% toelaten ipv 25%)
+
+---
+count: false
+
+## Mobile monitoring for mapping the urban air quality: methodology
+
+Decrease required number of repetitions
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan="2">25% uncertainty<br></th>
+    <th colspan="2">50% uncertainty<br></th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Standard</th>
+    <th>Processed</th>
+    <th>Standard</th>
+    <th>Processed</th>
+  </tr>
+  <tr>
+    <td>Route</td>
+    <td>17</td>
+    <td>12</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>50 m segments</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">10%</td>
+    <td>33</td>
+    <td>24</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">50%</td>
+    <td>57</td>
+    <td>42</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">90%</td>
+    <td>141</td>
+    <td>94</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+???
+
+33 keer herhalen -> 10% van de locaties die goed in kaart zijn gebracht
+
+57 keer herhalen -> goed in 50% van de locaties (40% bijgekomen)
+
+=> verbeteren?
+
+- verwerken (trimmed mean voor outliers/events, background normalisation voor temporal variation)
+- larger uncertainty (toleranter zijn, relatieve fout van 50% toelaten ipv 25%)
+
+
+---
+count: false
+
+## Mobile monitoring for mapping the urban air quality: methodology
+
+Decrease required number of repetitions
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan="2">25% uncertainty<br></th>
+    <th colspan="2">50% uncertainty<br></th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Standard</th>
+    <th>Processed</th>
+    <th>Standard</th>
+    <th>Processed</th>
+  </tr>
+  <tr>
+    <td>Route</td>
+    <td>17</td>
     <td>12</td>
     <td>4</td>
     <td>4</td>
@@ -686,6 +922,7 @@ Decrease required number of repetitions
 
 - verwerken (trimmed mean voor outliers/events, background normalisation voor temporal variation)
 - larger uncertainty (toleranter zijn, relatieve fout van 50% toelaten ipv 25%)
+
 
 ---
 ## Mobile monitoring methodology
@@ -795,7 +1032,7 @@ Targeted = 'gericht' -> duidelijk contrast vermelden tussen opport vs targeted
 
 "wij definieren dat als .. " !!
 
----
+<!-- ---
 
 ## City wardens: sampling bias
 
@@ -815,6 +1052,31 @@ Targeted = 'gericht' -> duidelijk contrast vermelden tussen opport vs targeted
     </td>
   </tr>
 </table>
+
+???
+ -->
+
+---
+
+## City wardens: sampling bias
+
+.center[
+![:scale 100%](images/opport/sampling-temporal-representativity_plot-all.png)
+]
+
+---
+count: false
+
+## City wardens: sampling bias
+
+
+Different temporal coverage depending on location
+
+<div style="height:220px">
+
+![:scale 49%](images/opport/sampling-temporal-representativity_plot-provincie.png)
+![:scale 49%](images/opport/sampling-temporal-representativity_plot-stadspark.png)
+
 
 ???
 
@@ -891,8 +1153,8 @@ Veel gebruikte methode in de literatuur, maar in mijn thesis:
 --
 count: false
 
-* Characteristics of each location: traffic, land use, population, geography
-* Background concentration at VMM stations
+* Spatial model: using characteristics of each location (traffic, land use, population, geography)
+* Spatio-temporal model: including concentration at VMM stations
 
 .center[
 ![:scale 50%](images/LUR/LUR_Jerrett2005.jpg)
@@ -909,6 +1171,8 @@ Different methods:
 * Leave-one-out cross-validation
 * Random n-fold cross-validation
 
+Risk to overestimate model performance
+
 ---
 
 ## Spatial cross-validation
@@ -918,7 +1182,7 @@ Different methods:
 ]
 
 ---
-## Spatial prediction
+## Spatial model
 
 <table class="layout-table" border=0>
   <col style="width:50%">
@@ -952,9 +1216,12 @@ Dit is spatiaal, maar willen ook weten hoe de luchtkwaliteit op een bepaald mome
 
 
 ---
-## Spatio-temporal prediction
+## Spatio-temporal model
 
-Trips
+Trips: route followed during one day
+
+.center[.middle[![:scale 90%](images/LUR/example_trip.png)]]
+
 
 ---
 ## Spatio-temporal prediction
@@ -962,7 +1229,7 @@ Trips
 .center[.middle[![](images/LUR/dynamic-evaluation-trip-svr-minimalCV.png)]]
 
 ---
-## Spatio-temporal prediction vs VMM station
+## Spatio-temporal model vs VMM station
 
 <table class="layout-table" border=0>
   <tr>
@@ -995,9 +1262,9 @@ class: inverse, middle
 
 ## Conclusions
 
-Mobile air quality monitoring
+We developed a methodolgy for mobile air quality monitoring
 
-* Potential for mapping small-scale variations
+* Can be used to map small-scale variations
 * Need for repeated measurements + careful processing and interpretation
 * Opportunistic monitoring
 * Predict exposure along GPS tracks with LUR models
@@ -1026,6 +1293,13 @@ class: center, middle
   ![:scale 30%](images/KermitFit.png)
   ![vito](images/VITO.png)
 ]
+
+
+.small[
+Promotors:<br>
+Bernard De Baets<br>
+Dick Botteldooren<br>
+Jan Theunis]
 
 ???
 
